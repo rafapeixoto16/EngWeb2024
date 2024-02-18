@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+	<meta>
+		<title>TPC1:</title>
+		<date>2024-02-18 </date>
+		<author>
+			<id>a96807</id>
+			<nome>Rafael Conde Peixoto </nome>
+		</author>
+		<uc>
+			<sigla>EW2024 </sigla>
+			<nome> Engenharia WEB </nome>
+		</uc>
+	</meta>
+	<resumo>
+		<p> Neste trabalho é necessario tratar diversas infomações contidadas em ficheiros xml e criar um indice. Esse indice sera uma pagina html, onde vai existir uma maneira de encaminhar para outras paginas..</p>
+		
+		<p> Nessas outras paginas sera exibido as informações referentes a cada rua com as suas respetivas imagens e informações referentes as casas pertencentes a essa rua.  
+.</p>
+		<p> Dataset<url>https://epl.di.uminho.pt/~jcr/AULAS/EngWeb2024/semana1/MapaRuas-materialBase.zip</url ><texto></texto> </p>
+	</resumo>
+	<resultados>
+		Para a resolução começei por passar os ficheiros xml para .json . Escolhei fazer esta conversão para facilitar o meu trabalho. Para isso usei regex para retirar as tags "desnecessarias" tanto nos paragrafos como nas descrições. A partir dai o trabalho ficou facilitado bastando apenas fazer alguns ciclos for.
+	</resultados>
+</doc>
