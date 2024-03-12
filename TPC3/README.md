@@ -1,4 +1,4 @@
-# TPC2 : Filmes
+# TPC3 : Filmes
 
 ## Enunciado
 
@@ -12,11 +12,11 @@ A pagina web precisa de ter um indice dos filmes, genero e atores.
 
 ## Solução obtida 
 
-Neste trabalho desenvolvi uma script em python para tratar do filmes.json . Ele python vai criar 3 coleções:
+Neste trabalho desenvolvi uma script em python para tratar do filmes.json . Ele python vai criar 3 coleções dentro de um ficheiro json:
 
 - Filmes
 - Atores
 - Género
 
-Apos isso foi apenas preciso de criar as paginas como nos trabalhos anteriores.
+Apos isso foi apenas preciso de criar as paginas web como nos trabalhos anteriores.
 
