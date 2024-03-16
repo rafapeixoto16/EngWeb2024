@@ -1,0 +1,32 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-purple
+            h2 Formulario Compositor
+
+
+        form.w3-container(method="POST")
+            fieldset
+                legend Form
+                label id
+                input.w3-input.w3-round(type="text" name="id" value=Compositor.id readonly)
+                label nome
+                input.w3-input.w3-round(type="text" name="nome" required value=Compositor.nome)
+                label bio
+                input.w3-input.w3-round(type="text" name="bio" required value=Compositor.bio)
+                label dataNasc
+                input.w3-input.w3-round(type="date" name="dataNasc" required value=Compositor.dataNasc)
+                label dataObito
+                input.w3-input.w3-round(type="date" name="dataObito" required value=Compositor.dataObito)
+                label periodo
+                input.w3-input.w3-round(type="text" name="periodo" required value=Compositor.periodo)
+
+            br
+            button.w3-btn.w3-purple.w3-mb-2(type="submit") Register
+
+        footer.w3-container.w3-purple
+            h5
+                span Peixoto in #{Date} - [
+                a(href="/compositores") Return
+                span ]

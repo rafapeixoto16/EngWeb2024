@@ -1,0 +1,30 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h1 Compositor #{Compositor.id}
+
+        .w3-container
+            ul.w3-ul.w3-card-4(style="width:50%")
+                li
+                    b nome:
+                    span #{ Compositor.nome}
+                li
+                    b dataNascimento:
+                    span #{Compositor.dataNasc}
+                li
+                    b dataObito:
+                    span #{Compositor.dataObito}
+                li
+                    b Periodo:
+                    a(href="/periodos/"+Compositor.periodo)=  Compositor.periodo
+                li
+                    b Biografia:
+                    span #{Compositor.bio}
+
+        footer.w3-container.w3-teal
+            address
+                span Gerado por Peixoto em #{Date} - [
+                    a(href="/compositores") Voltar
+                    span ]

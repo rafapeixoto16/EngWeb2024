@@ -1,0 +1,21 @@
+extends layout
+
+block content
+
+    .w3-card-4
+        header.w3-container.w3-teal
+            h1 Periodo #{nome}</h1>
+
+        .w3-container
+            ul.class.w3-ul.w3-card-4(style="width:50%")
+            each compositor in Compositores
+                li
+                    b Compositor:
+                    a(href="/compositores/"+compositor.id) #{compositor.nome}
+
+
+        footer.w3-container.w3-teal
+            address
+                span Gerado por Peixoto em #{Date} - [
+                    a(href="/periodos") Voltar
+                    span ]
