@@ -1,0 +1,33 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h1 #{PessoaOBJ.nome}
+
+        .w3-container
+            ul.w3-ul.w3-card-4(style="width:50%")
+                li
+                    b Sexo:
+                    span  #{PessoaOBJ.sexo}
+                li
+                    b Idade:
+                    span  #{PessoaOBJ.idade}
+                li
+                    b Profissão:
+                    span   #{PessoaOBJ.profissao}
+                li
+                    .w3-container
+                        table.w3-table-all
+                            tr
+                                th Desportos
+                            each desporto in PessoaOBJ.desportos
+                                tr
+                                    td
+                                        a(href="/modalidades/" + desporto)= desporto
+
+        footer.w3-container.w3-teal
+            address
+                span Gerado por Peixoto em #{Data} - [
+                    a(href="/pessoas") Voltar
+                    span ]
