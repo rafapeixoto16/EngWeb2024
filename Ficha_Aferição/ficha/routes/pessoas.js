@@ -4,7 +4,7 @@ let pessoa = require("../controllers/pessoas")
 
 router.get("/",function(req,res){
     pessoa.list().then(resp =>{
-        res.status(200).render("pessoasListPage",{"PessoasArray":resp})
+        res.status(200).render("pessoasListPage",{"PessoasArray":resp}) //.json(resp)
     }).catch(erro =>{
         res.status(503).write("erro")})
 })
