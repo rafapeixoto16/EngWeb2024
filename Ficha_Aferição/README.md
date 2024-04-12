@@ -1,9 +1,10 @@
 # Ficha 
 
+Data de entrega 10/04
+
 ## Enunciado
 
 Ficha de aferição
-
 
 ## Autor
 
@@ -12,7 +13,7 @@ Ficha de aferição
 
 ## Solução obtida 
 
-Exercicios resolvidos
+Exercicios resolvidos:
 
 - 1
 - 2
