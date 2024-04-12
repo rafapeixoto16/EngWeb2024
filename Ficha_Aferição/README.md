@@ -12,8 +12,7 @@ Ficha de aferição
 - Rafael Conde Peixoto
 
 ## Solução obtida 
-
-Exercicios resolvidos:
+Para esta ficha resolvi os seguintes exercicios:
 
 - 1
 - 2
